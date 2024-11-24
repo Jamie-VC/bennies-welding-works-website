@@ -1,0 +1,38 @@
+.wedocard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    justify-content: flex-start;
+    width: 300px; /* Adjust width for a balanced layout */
+    min-height: 400px; /* Minimum height for content */
+    background: linear-gradient(to bottom, #70706F, #A1A2A3);
+    border-radius: 15px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.wedocard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.wedocard .header {
+    font-size: 1rem; /* Reduced font size to fit within box */
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px; /* Space between header and content */
+    text-align: left; /* Align header text to the left */
+    width: 100%; /* Ensure header uses full card width */
+    word-wrap: break-word; /* Break words to fit within the box */
+}
+
+.wedocard .content {
+    font-size: 1.2rem; /* Comfortable size for body text */
+    color: white;
+    text-align: left; /* Align text to the left */
+    line-height: 1.5; /* Improved readability */
+    word-wrap: break-word; /* Prevent overflow for long words */
+    width: 100%; /* Ensure content uses full card width */
+}

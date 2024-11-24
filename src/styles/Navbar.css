@@ -1,0 +1,30 @@
+/* Navbar styles */
+.navbar {
+  position: fixed; /* Keeps the navbar floating */
+  top: 20px; /* Adjust vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Corrects the centering */
+  background: linear-gradient(to right, #000000, #737373); /* Navbar background color */
+  padding: 10px 20px; /* Padding for the oval shape */
+  border-radius: 30px; /* Makes the navbar oval */
+  display: flex; /* Aligns the tabs horizontally */
+  align-items: center; /* Vertically centers the items */
+  gap: 20px; /* Space between tabs */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  z-index: 1000; /* Ensures it stays above other content */
+  height: 60px; /* Increase height if needed for better spacing */
+}
+
+/* Navbar links */
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Link text color */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold text */
+  line-height: 1; /* Prevent extra line spacing */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar a:hover {
+  color: #0000ff; /* Change color on hover */
+}

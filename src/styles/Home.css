@@ -1,0 +1,73 @@
+/* Reset global margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.site-title {
+    position: absolute; /* Allows precise positioning */
+    top: 5%; /* Adjusts vertical alignment (higher) */
+    left: 70px; /* Positions it to the left */
+    color: black;
+    font-size: 30px; /* Adjust size as needed */
+    margin: 0; /* Removes any unwanted spacing */
+    z-index: 1000; /* Ensures it stays on top of the background */
+    color: white;
+}
+
+.headerContainer {
+    width: auto;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between child elements */
+}
+
+.headerContainer h1 {
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 50;
+    width: 50%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.headerContainer p {
+    font-size: 30px;
+    font-weight: lighter;
+    width: 50%;
+    color: white;
+    margin-top: 0%;
+}
+
+.headerContainer button {
+    border: none;
+    border-radius: 5px;
+    background-color: #0000ff;
+    height: 50px;
+    width: 180px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 18%; 
+}
+.bottom{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right, #000000, #737373);
+}

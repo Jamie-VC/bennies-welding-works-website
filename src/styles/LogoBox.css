@@ -1,0 +1,26 @@
+.imagecard {
+    width: 200px; /* Box dimensions */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #70706F, #A1A2A3); /* Box background */
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Prevent content from spilling out */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.imagecard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.imagecard img {
+    width: 80%; /* Shrink the image to leave space around it */
+    height: 80%;
+    object-fit: cover; /* Maintain aspect ratio while covering the available space */
+    border-radius: 8px; /* Match the overall rounded style */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+}

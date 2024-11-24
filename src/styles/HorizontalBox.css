@@ -1,0 +1,39 @@
+.horicard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    justify-content: flex-start;
+    width: 400px; /* Adjust width for a rectangular layout */
+    height:fit-content; /* Define height for the rectangle */
+    background: linear-gradient(to bottom, #70706F, #A1A2A3);
+    border-radius: 10px; /* Slightly round corners for a polished look */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.horicard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.horicard .header {
+    font-size: 1.8rem; /* Adjust font size for visibility */
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px; /* Space between header and content */
+    text-align: left; /* Align header text to the left */
+    width: 100%; /* Ensure header uses full card width */
+    word-wrap: break-word; /* Break words to fit within the box */
+}
+
+.horicard .content {
+    font-size: 1.3rem; /* Comfortable size for body text */
+    color: white;
+    text-align: left; /* Align text to the left */
+    line-height: 1.6; /* Improve readability */
+    word-wrap: break-word; /* Prevent overflow for long words */
+    overflow: auto; /* Handle long content gracefully */
+    width: 100%; /* Ensure content uses full card width */
+}
