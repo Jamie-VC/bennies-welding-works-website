@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiFontSize } from 'react-icons/bi';
 import { FaFacebookF } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import '../styles/Footer.css'

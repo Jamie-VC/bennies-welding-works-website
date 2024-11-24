@@ -5,7 +5,7 @@ import '../styles/LogoBox.css'
 function LogoBox() {
   return (
     <div className='imagecard'>
-      <img src={Logo} />
+      <img src={Logo} alt="Company Logo"/>
     </div>
   )
 }
