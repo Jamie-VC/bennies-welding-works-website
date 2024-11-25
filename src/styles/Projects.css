@@ -1,0 +1,42 @@
+.projectspage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .overview {
+    width: 100%;
+    height: 60vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .overview h1 {
+    color: white;
+    font-size: 2.5rem; /* Adjust size as needed */
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Add slight transparency for better text visibility */
+    border-radius: 10px;
+  }
+  
+  .prjectsgallery,
+  .casestudies {
+    background: linear-gradient(to right, #000000, #737373);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .prjectsgallery h1,
+  .casestudies h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+  }
+  
