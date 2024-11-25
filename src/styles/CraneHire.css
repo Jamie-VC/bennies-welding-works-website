@@ -61,11 +61,29 @@
 /* chGallery styles */
 .chPage .chGallery {
     background: linear-gradient(to right, #000000, #737373);
-    padding: 20px; /* Add padding for separation */
+    padding: 40px 20px; /* Top and bottom padding: 40px, left and right padding: 20px */
 }
 
 .chPage .chGallery h1 {
     color: white;
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 30px; /* Add spacing below the heading */
+}
+
+.chPage .chGallery .crane-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with a minimum column size */
+    gap: 20px; /* Space between images */
+    justify-items: center; /* Center images horizontally in their grid cells */
+    padding: 0 40px; /* Add left and right padding for more spacing */
+}
+
+.chPage .chGallery .crane-gallery-image {
+    width: 100%; /* Ensure images take up full width of the grid cell */
+    max-width: 400px; /* Set a maximum width for larger images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners to images */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }

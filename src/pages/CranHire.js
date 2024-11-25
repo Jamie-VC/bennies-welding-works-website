@@ -3,6 +3,17 @@ import chBackground from '../assets/chbackground.png'
 import ServiceBox from '../components/chServices'
 import '../styles/CraneHire.css'
 
+import CR1 from '../assets/cranehiregallery/cranehire1.JPG'
+
+const craneGalleryImages = [
+  { src: CR1, alt: 'Image 1' },
+  { src: CR1, alt: 'Image 1' },
+  { src: CR1, alt: 'Image 1' },
+  { src: CR1, alt: 'Image 1' },
+  { src: CR1, alt: 'Image 1' },
+  { src: CR1, alt: 'Image 1' },
+];
+
 /* we supply cranes for what services*/
 /* Types of cranes e.g. all terrain */
 function CranHire() {
@@ -29,6 +40,11 @@ function CranHire() {
 
       <div className='chGallery'>
         <h1> Gallery </h1>
+        <div className="crane-gallery-grid">
+            {craneGalleryImages.map((image, index) => (
+              <img key={index} src={image.src} alt={image.alt} className="crane-gallery-image" />
+            ))}
+        </div>
       </div>
       
     </div>
