@@ -1,0 +1,18 @@
+.servicebox {
+    width: 200px; /* Box dimensions */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #70706F, #A1A2A3); /* Box background */
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Prevent content from spilling out */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.servicetext{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}

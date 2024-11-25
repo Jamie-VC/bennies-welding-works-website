@@ -1,0 +1,71 @@
+.chPage {
+    margin: 0;
+    padding: 0;
+}
+
+/* chhome styles */
+.chPage .chhome {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;    /* Center content vertically */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.chPage .chhome h1 {
+    font-size: 5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Set text color */
+    text-align: center; /* Ensure text alignment is centered */
+    margin: 0; /* Remove margin */
+}
+
+/* chServices styles */
+.chPage .chServices {
+    background: linear-gradient(to right, #000000, #737373);
+    padding: 20px; /* Add padding to separate content from edges */
+}
+
+.chPage .chServices h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem; /* Adjust size for the header */
+    margin-bottom: 20px; /* Add spacing below the header */
+}
+
+.chPage .chServices .service-box-container {
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Space between the service boxes */
+}
+
+.chPage .chServices .service-box-container .service-box {
+    flex: 0 1 auto; /* Let boxes size naturally based on content */
+    padding: 20px; /* Add padding inside each box */
+    background-color: #ffffff; /* Background color for each box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    text-align: center; /* Center text inside the box */
+    color: #000; /* Text color */
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: bold;
+    min-width: 150px; /* Set a minimum width for boxes */
+}
+
+
+/* chGallery styles */
+.chPage .chGallery {
+    background: linear-gradient(to right, #000000, #737373);
+    padding: 20px; /* Add padding for separation */
+}
+
+.chPage .chGallery h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
