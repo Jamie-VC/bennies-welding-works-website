@@ -1,5 +1,6 @@
 import React from 'react'
 import Makro from '../assets/projectgallery/makroproject.png'
+import Hori from '../components/HorizontalBox'
 import '../styles/Projects.css'
 
 function Projects() {
@@ -18,6 +19,14 @@ function Projects() {
 
         <div className='casestudies'>
           <h1> Case Studies </h1>
+          <div className="casestudies-content">
+            <Hori header="Mercedez-Benz" 
+                  content="we had to do a lot of work at the mercedez benz plant in East London"/>
+            <Hori header="PG Bison" 
+                  content="we had to do a lot of work at the mercedez benz plant in East London"/>
+            <Hori header="Makro" 
+                  content="we had to do a lot of work at the mercedez benz plant in East London"/>  
+            </div>  
         </div>
 
     </div>

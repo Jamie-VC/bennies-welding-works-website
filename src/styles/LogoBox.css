@@ -12,11 +12,6 @@
     cursor: pointer;
 }
 
-.imagecard:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
-}
-
 .imagecard img {
     width: 80%; /* Shrink the image to leave space around it */
     height: 80%;

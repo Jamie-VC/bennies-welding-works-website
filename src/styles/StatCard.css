@@ -13,11 +13,6 @@
     cursor: pointer;
   }
   
-  .statcard:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-  }
-  
   .statcard .number {
     font-size: 2rem; /* Large text for title */
     font-weight: bold;

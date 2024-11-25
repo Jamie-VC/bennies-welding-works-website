@@ -13,11 +13,6 @@
     cursor: pointer;
 }
 
-.wedocard:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
-}
-
 .wedocard .header {
     font-size: 1rem; /* Reduced font size to fit within box */
     font-weight: bold;

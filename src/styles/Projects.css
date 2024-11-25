@@ -39,4 +39,35 @@
     margin: 0;
     color: white;
   }
+  .casestudies {
+    background: linear-gradient(to right, #000000, #737373);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .casestudies h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .casestudies-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row */
+    gap: 20px; /* Equal spacing between items, adjust as needed */
+    justify-items: center; /* Center-align the child items */
+    margin-top: 20px;
+    width: 100%; /* Full-width grid container */
+  }
+  
+  
+  
+
+  
+  @media (max-width: 768px) {
+    .casestudies-content {
+      grid-template-columns: repeat(1, 1fr); /* One item per row on small screens */
+    }
+  }
+  
   
