@@ -4,6 +4,7 @@ import { GrProjects, GrServices } from "react-icons/gr";
 import { FaIndustry } from "react-icons/fa";
 import '../styles/Home.css'
 import Card from '../components/HomeCard'
+import Ciricle from '../components/HomeCircles'
 
 function Home() {
   return (
@@ -15,10 +16,24 @@ function Home() {
           <button> Request a quote </button>
         </div>
       </div>
-      <div className='bottom' style={{ display: 'flex', gap: '125px', justifyContent: 'center', marginTop: '0px', paddingTop: '150px' }}>
+      <div className='bottom' style={{ display: 'flex', gap: '125px', justifyContent: 'left', marginTop: '0px', paddingTop: '50px', paddingLeft: '60px'}}>
         <Card icon={GrProjects} text="Projects" to="/projects"/>
-        <Card icon={GrServices} text="Services" to="/projects"/>
-        <Card icon={ FaIndustry} text="Industries" to="/projects"/>
+      </div>
+      <div className='homeservices'>
+        <h1> Services </h1>
+        <div className='serviceicons'>
+          <Ciricle icon={GrServices} text="Speacilized welding"/>
+          <Ciricle icon={GrServices} text="Speacilized welding"/>
+          <Ciricle icon={GrServices} text="Speacilized welding"/>
+        </div>
+      </div>
+      <div className='homeindustries'>
+        <h1> Industries </h1>
+        <div className='industryicons'>
+          <Ciricle icon={FaIndustry} text="Industrial"/>
+          <Ciricle icon={FaIndustry} text="Industrial"/>
+          <Ciricle icon={FaIndustry} text="Industrial"/>
+        </div>
       </div>
     </div>
   )

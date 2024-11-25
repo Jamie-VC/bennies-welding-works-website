@@ -1,11 +1,18 @@
-/* Reset global margin and padding */
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
     overflow-x: hidden; /* Prevent horizontal scroll */
+    box-sizing: border-box; /* Ensure padding and border are included in element's dimensions */
 }
+
+/* General section styles */
+div {
+    margin: 0;
+    padding: 0;
+}
+
 
 .home {
     width: 100%;
@@ -19,6 +26,7 @@ body, html {
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 .site-title {
     position: absolute; /* Allows precise positioning */
     top: 5%; /* Adjusts vertical alignment (higher) */
@@ -68,6 +76,57 @@ body, html {
 }
 .bottom{
     width: 100%;
-    height: 500px;
+    height: fit-content;
     background: linear-gradient(to right, #000000, #737373);
+}
+/* Home services section */
+.homeservices {
+    width: 100%;
+    background: linear-gradient(to right, #000000, #737373);
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.homeservices h1 {
+    margin: 0; /* Remove any extra margin from <h1> */
+    padding: 20px 0; /* Optional padding for spacing */
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+/* Service icons */
+.serviceicons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Home industries section */
+.homeindustries {
+    width: 100%;
+    background: linear-gradient(to right, #000000, #737373);
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.homeindustries h1 {
+    margin: 0; /* Remove any extra margin from <h1> */
+    padding: 20px 0; /* Optional padding for spacing */
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+/* Industry icons */
+.industryicons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    text-align: center;
 }

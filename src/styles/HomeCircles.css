@@ -1,0 +1,27 @@
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  width: 100px; /* Increased width of the circle container */
+}
+
+.circle .icon {
+  width: 100px; /* New width for larger circle */
+  height: 100px; /* New height for larger circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Keep it circular */
+  background: linear-gradient(to bottom, #70706F, #A1A2A3);
+  color: white; /* Icon color */
+  font-size: 2rem; /* Adjust font size for larger icons */
+}
+
+.circle .text {
+  margin-top: 10px; /* Spacing between icon and text */
+  font-size: 1.2rem; /* Slightly larger text size */
+  color: white; /* Text color */
+}
